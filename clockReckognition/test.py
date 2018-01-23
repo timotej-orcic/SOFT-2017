@@ -7,6 +7,8 @@ img = cv2.imread('images/nesa.jpg', 0)
 img = cv2.medianBlur(img, 5)
 cimg = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
 height, width, channels = cimg.shape
+#proba
+#idemo opet
 
 circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT, 1, 20,
                            param1=300, param2=50, minRadius=0, maxRadius=0)

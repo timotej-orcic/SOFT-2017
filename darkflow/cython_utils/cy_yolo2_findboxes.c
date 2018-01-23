@@ -4,11 +4,11 @@
 {
     "distutils": {
         "depends": [
-            "C:\\Users\\Tima\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\numpy\\core\\include\\numpy\\arrayobject.h",
-            "C:\\Users\\Tima\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\numpy\\core\\include\\numpy\\ufuncobject.h"
+            "C:\\ProgramData\\Miniconda3\\envs\\SOFT2017\\lib\\site-packages\\numpy\\core\\include\\numpy\\arrayobject.h",
+            "C:\\ProgramData\\Miniconda3\\envs\\SOFT2017\\lib\\site-packages\\numpy\\core\\include\\numpy\\ufuncobject.h"
         ],
         "include_dirs": [
-            "C:\\Users\\Tima\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\numpy\\core\\include"
+            "C:\\ProgramData\\Miniconda3\\envs\\SOFT2017\\lib\\site-packages\\numpy\\core\\include"
         ],
         "name": "darkflow.cython_utils.cy_yolo2_findboxes",
         "sources": [
@@ -537,8 +537,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__cy_yolo2_findboxes
-#define __PYX_HAVE_API__cy_yolo2_findboxes
+#define __PYX_HAVE__darkflow__cython_utils__cy_yolo2_findboxes
+#define __PYX_HAVE_API__darkflow__cython_utils__cy_yolo2_findboxes
 #include <string.h>
 #include <stdio.h>
 #include "numpy/arrayobject.h"
@@ -886,7 +886,7 @@ typedef volatile __pyx_atomic_int_type __pyx_atomic_int;
 #define __Pyx_FastGilFuncInit()
 
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":743
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":743
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -895,7 +895,7 @@ typedef volatile __pyx_atomic_int_type __pyx_atomic_int;
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":744
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":744
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -904,7 +904,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":745
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":745
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -913,7 +913,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":746
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":746
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -922,7 +922,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":750
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":750
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -931,7 +931,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":751
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":751
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -940,7 +940,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":752
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":752
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -949,7 +949,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":753
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":753
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -958,7 +958,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":757
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":757
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -967,7 +967,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":758
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":758
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -976,7 +976,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":767
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":767
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -985,7 +985,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":768
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":768
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -994,7 +994,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":769
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":769
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1003,7 +1003,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":771
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":771
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1012,7 +1012,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":772
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":772
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1021,7 +1021,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":773
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":773
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1030,7 +1030,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":775
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":775
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1039,7 +1039,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":776
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":776
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1048,7 +1048,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":778
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":778
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1057,7 +1057,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":779
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":779
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1066,7 +1066,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":780
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":780
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1082,16 +1082,16 @@ typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
  * from libc.math cimport exp
  * from utils.box import BoundBox
  */
-typedef __pyx_t_5numpy_float_t __pyx_t_3nms_DTYPE_t;
+typedef __pyx_t_5numpy_float_t __pyx_t_8darkflow_12cython_utils_3nms_DTYPE_t;
 
-/* "cy_yolo2_findboxes.pyx":4
+/* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":4
  * cimport numpy as np
  * cimport cython
  * ctypedef np.float_t DTYPE_t             # <<<<<<<<<<<<<<
  * from libc.math cimport exp
  * from ..utils.box import BoundBox
  */
-typedef __pyx_t_5numpy_float_t __pyx_t_18cy_yolo2_findboxes_DTYPE_t;
+typedef __pyx_t_5numpy_float_t __pyx_t_8darkflow_12cython_utils_18cy_yolo2_findboxes_DTYPE_t;
 /* Declarations.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -1123,7 +1123,7 @@ struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":782
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":782
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1132,7 +1132,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":783
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":783
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1141,7 +1141,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":784
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":784
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1150,7 +1150,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":786
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":786
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -2034,10 +2034,10 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, cha
 
 /* Module declarations from 'libc.math' */
 
-/* Module declarations from 'nms' */
-static PyObject *(*__pyx_f_3nms_NMS)(__Pyx_memviewslice, __Pyx_memviewslice); /*proto*/
+/* Module declarations from 'darkflow.cython_utils.nms' */
+static PyObject *(*__pyx_f_8darkflow_12cython_utils_3nms_NMS)(__Pyx_memviewslice, __Pyx_memviewslice); /*proto*/
 
-/* Module declarations from 'cy_yolo2_findboxes' */
+/* Module declarations from 'darkflow.cython_utils.cy_yolo2_findboxes' */
 static PyTypeObject *__pyx_array_type = 0;
 static PyTypeObject *__pyx_MemviewEnum_type = 0;
 static PyTypeObject *__pyx_memoryview_type = 0;
@@ -2049,8 +2049,8 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static float __pyx_f_18cy_yolo2_findboxes_expit_c(float); /*proto*/
-static float __pyx_f_18cy_yolo2_findboxes_max_c(float, float); /*proto*/
+static float __pyx_f_8darkflow_12cython_utils_18cy_yolo2_findboxes_expit_c(float); /*proto*/
+static float __pyx_f_8darkflow_12cython_utils_18cy_yolo2_findboxes_max_c(float, float); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static void *__pyx_align_pointer(void *, size_t); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -2086,11 +2086,11 @@ static void __pyx_memoryview__slice_assign_scalar(char *, Py_ssize_t *, Py_ssize
 static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *, PyObject *); /*proto*/
 static __Pyx_TypeInfo __Pyx_TypeInfo_float = { "float", NULL, sizeof(float), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), { 0 }, 0, 'R', 0, 0 };
-#define __Pyx_MODULE_NAME "cy_yolo2_findboxes"
-extern int __pyx_module_is_main_cy_yolo2_findboxes;
-int __pyx_module_is_main_cy_yolo2_findboxes = 0;
+#define __Pyx_MODULE_NAME "darkflow.cython_utils.cy_yolo2_findboxes"
+extern int __pyx_module_is_main_darkflow__cython_utils__cy_yolo2_findboxes;
+int __pyx_module_is_main_darkflow__cython_utils__cy_yolo2_findboxes = 0;
 
-/* Implementation of 'cy_yolo2_findboxes' */
+/* Implementation of 'darkflow.cython_utils.cy_yolo2_findboxes' */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_RuntimeError;
@@ -2204,7 +2204,6 @@ static const char __pyx_k_setstate_cython[] = "__setstate_cython__";
 static const char __pyx_k_ascontiguousarray[] = "ascontiguousarray";
 static const char __pyx_k_pyx_unpickle_Enum[] = "__pyx_unpickle_Enum";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
-static const char __pyx_k_cy_yolo2_findboxes[] = "cy_yolo2_findboxes";
 static const char __pyx_k_strided_and_direct[] = "<strided and direct>";
 static const char __pyx_k_strided_and_indirect[] = "<strided and indirect>";
 static const char __pyx_k_contiguous_and_direct[] = "<contiguous and direct>";
@@ -2236,6 +2235,7 @@ static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __red
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
 static const char __pyx_k_unable_to_allocate_shape_and_str[] = "unable to allocate shape and strides.";
 static const char __pyx_k_Format_string_allocated_too_shor_2[] = "Format string allocated too short.";
+static const char __pyx_k_darkflow_cython_utils_cy_yolo2_f_2[] = "darkflow.cython_utils.cy_yolo2_findboxes";
 static PyObject *__pyx_n_s_ASCII;
 static PyObject *__pyx_n_s_B;
 static PyObject *__pyx_n_s_Bbox_pred;
@@ -2290,8 +2290,8 @@ static PyObject *__pyx_n_s_col;
 static PyObject *__pyx_n_s_col1;
 static PyObject *__pyx_kp_s_contiguous_and_direct;
 static PyObject *__pyx_kp_s_contiguous_and_indirect;
-static PyObject *__pyx_n_s_cy_yolo2_findboxes;
 static PyObject *__pyx_kp_s_darkflow_cython_utils_cy_yolo2_f;
+static PyObject *__pyx_n_s_darkflow_cython_utils_cy_yolo2_f_2;
 static PyObject *__pyx_n_s_dict;
 static PyObject *__pyx_n_s_dtype;
 static PyObject *__pyx_n_s_dtype_is_object;
@@ -2373,7 +2373,7 @@ static PyObject *__pyx_n_s_unpack;
 static PyObject *__pyx_n_s_update;
 static PyObject *__pyx_n_s_utils_box;
 static PyObject *__pyx_n_s_zeros;
-static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_meta, PyArrayObject *__pyx_v_net_out_in); /* proto */
+static PyObject *__pyx_pf_8darkflow_12cython_utils_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_meta, PyArrayObject *__pyx_v_net_out_in); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
@@ -2465,7 +2465,7 @@ static PyObject *__pyx_tuple__37;
 static PyObject *__pyx_codeobj__31;
 static PyObject *__pyx_codeobj__38;
 
-/* "cy_yolo2_findboxes.pyx":13
+/* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":13
  * @cython.wraparound(False)  # turn off negative index wrapping for entire function
  * @cython.cdivision(True)
  * cdef float expit_c(float x):             # <<<<<<<<<<<<<<
@@ -2473,13 +2473,13 @@ static PyObject *__pyx_codeobj__38;
  *     return y
  */
 
-static float __pyx_f_18cy_yolo2_findboxes_expit_c(float __pyx_v_x) {
+static float __pyx_f_8darkflow_12cython_utils_18cy_yolo2_findboxes_expit_c(float __pyx_v_x) {
   float __pyx_v_y;
   float __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("expit_c", 0);
 
-  /* "cy_yolo2_findboxes.pyx":14
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":14
  * @cython.cdivision(True)
  * cdef float expit_c(float x):
  *     cdef float y= 1/(1+exp(-x))             # <<<<<<<<<<<<<<
@@ -2488,7 +2488,7 @@ static float __pyx_f_18cy_yolo2_findboxes_expit_c(float __pyx_v_x) {
  */
   __pyx_v_y = (1.0 / (1.0 + exp((-__pyx_v_x))));
 
-  /* "cy_yolo2_findboxes.pyx":15
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":15
  * cdef float expit_c(float x):
  *     cdef float y= 1/(1+exp(-x))
  *     return y             # <<<<<<<<<<<<<<
@@ -2498,7 +2498,7 @@ static float __pyx_f_18cy_yolo2_findboxes_expit_c(float __pyx_v_x) {
   __pyx_r = __pyx_v_y;
   goto __pyx_L0;
 
-  /* "cy_yolo2_findboxes.pyx":13
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":13
  * @cython.wraparound(False)  # turn off negative index wrapping for entire function
  * @cython.cdivision(True)
  * cdef float expit_c(float x):             # <<<<<<<<<<<<<<
@@ -2512,7 +2512,7 @@ static float __pyx_f_18cy_yolo2_findboxes_expit_c(float __pyx_v_x) {
   return __pyx_r;
 }
 
-/* "cy_yolo2_findboxes.pyx":21
+/* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":21
  * @cython.wraparound(False)  # turn off negative index wrapping for entire function
  * @cython.cdivision(True)
  * cdef float max_c(float a, float b):             # <<<<<<<<<<<<<<
@@ -2520,13 +2520,13 @@ static float __pyx_f_18cy_yolo2_findboxes_expit_c(float __pyx_v_x) {
  *         return a
  */
 
-static float __pyx_f_18cy_yolo2_findboxes_max_c(float __pyx_v_a, float __pyx_v_b) {
+static float __pyx_f_8darkflow_12cython_utils_18cy_yolo2_findboxes_max_c(float __pyx_v_a, float __pyx_v_b) {
   float __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("max_c", 0);
 
-  /* "cy_yolo2_findboxes.pyx":22
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":22
  * @cython.cdivision(True)
  * cdef float max_c(float a, float b):
  *     if(a>b):             # <<<<<<<<<<<<<<
@@ -2536,7 +2536,7 @@ static float __pyx_f_18cy_yolo2_findboxes_max_c(float __pyx_v_a, float __pyx_v_b
   __pyx_t_1 = ((__pyx_v_a > __pyx_v_b) != 0);
   if (__pyx_t_1) {
 
-    /* "cy_yolo2_findboxes.pyx":23
+    /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":23
  * cdef float max_c(float a, float b):
  *     if(a>b):
  *         return a             # <<<<<<<<<<<<<<
@@ -2546,7 +2546,7 @@ static float __pyx_f_18cy_yolo2_findboxes_max_c(float __pyx_v_a, float __pyx_v_b
     __pyx_r = __pyx_v_a;
     goto __pyx_L0;
 
-    /* "cy_yolo2_findboxes.pyx":22
+    /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":22
  * @cython.cdivision(True)
  * cdef float max_c(float a, float b):
  *     if(a>b):             # <<<<<<<<<<<<<<
@@ -2555,7 +2555,7 @@ static float __pyx_f_18cy_yolo2_findboxes_max_c(float __pyx_v_a, float __pyx_v_b
  */
   }
 
-  /* "cy_yolo2_findboxes.pyx":24
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":24
  *     if(a>b):
  *         return a
  *     return b             # <<<<<<<<<<<<<<
@@ -2565,7 +2565,7 @@ static float __pyx_f_18cy_yolo2_findboxes_max_c(float __pyx_v_a, float __pyx_v_b
   __pyx_r = __pyx_v_b;
   goto __pyx_L0;
 
-  /* "cy_yolo2_findboxes.pyx":21
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":21
  * @cython.wraparound(False)  # turn off negative index wrapping for entire function
  * @cython.cdivision(True)
  * cdef float max_c(float a, float b):             # <<<<<<<<<<<<<<
@@ -2579,7 +2579,7 @@ static float __pyx_f_18cy_yolo2_findboxes_max_c(float __pyx_v_a, float __pyx_v_b
   return __pyx_r;
 }
 
-/* "cy_yolo2_findboxes.pyx":53
+/* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":53
  * @cython.boundscheck(False) # turn off bounds-checking for entire function
  * @cython.wraparound(False)  # turn off negative index wrapping for entire function
  * def box_constructor(meta,np.ndarray[float,ndim=3] net_out_in):             # <<<<<<<<<<<<<<
@@ -2588,9 +2588,9 @@ static float __pyx_f_18cy_yolo2_findboxes_max_c(float __pyx_v_a, float __pyx_v_b
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_18cy_yolo2_findboxes_1box_constructor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_18cy_yolo2_findboxes_1box_constructor = {"box_constructor", (PyCFunction)__pyx_pw_18cy_yolo2_findboxes_1box_constructor, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_18cy_yolo2_findboxes_1box_constructor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8darkflow_12cython_utils_18cy_yolo2_findboxes_1box_constructor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_8darkflow_12cython_utils_18cy_yolo2_findboxes_1box_constructor = {"box_constructor", (PyCFunction)__pyx_pw_8darkflow_12cython_utils_18cy_yolo2_findboxes_1box_constructor, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_8darkflow_12cython_utils_18cy_yolo2_findboxes_1box_constructor(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_meta = 0;
   PyArrayObject *__pyx_v_net_out_in = 0;
   PyObject *__pyx_r = 0;
@@ -2638,12 +2638,12 @@ static PyObject *__pyx_pw_18cy_yolo2_findboxes_1box_constructor(PyObject *__pyx_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("box_constructor", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 53, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("cy_yolo2_findboxes.box_constructor", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("darkflow.cython_utils.cy_yolo2_findboxes.box_constructor", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_net_out_in), __pyx_ptype_5numpy_ndarray, 1, "net_out_in", 0))) __PYX_ERR(0, 53, __pyx_L1_error)
-  __pyx_r = __pyx_pf_18cy_yolo2_findboxes_box_constructor(__pyx_self, __pyx_v_meta, __pyx_v_net_out_in);
+  __pyx_r = __pyx_pf_8darkflow_12cython_utils_18cy_yolo2_findboxes_box_constructor(__pyx_self, __pyx_v_meta, __pyx_v_net_out_in);
 
   /* function exit code */
   goto __pyx_L0;
@@ -2654,7 +2654,7 @@ static PyObject *__pyx_pw_18cy_yolo2_findboxes_1box_constructor(PyObject *__pyx_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_meta, PyArrayObject *__pyx_v_net_out_in) {
+static PyObject *__pyx_pf_8darkflow_12cython_utils_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_meta, PyArrayObject *__pyx_v_net_out_in) {
   __pyx_t_5numpy_intp_t __pyx_v_H;
   __pyx_t_5numpy_intp_t __pyx_v_W;
   CYTHON_UNUSED __pyx_t_5numpy_intp_t __pyx_v__;
@@ -2782,7 +2782,7 @@ static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyO
   }
   __pyx_pybuffernd_net_out_in.diminfo[0].strides = __pyx_pybuffernd_net_out_in.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_net_out_in.diminfo[0].shape = __pyx_pybuffernd_net_out_in.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_net_out_in.diminfo[1].strides = __pyx_pybuffernd_net_out_in.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_net_out_in.diminfo[1].shape = __pyx_pybuffernd_net_out_in.rcbuffer->pybuffer.shape[1]; __pyx_pybuffernd_net_out_in.diminfo[2].strides = __pyx_pybuffernd_net_out_in.rcbuffer->pybuffer.strides[2]; __pyx_pybuffernd_net_out_in.diminfo[2].shape = __pyx_pybuffernd_net_out_in.rcbuffer->pybuffer.shape[2];
 
-  /* "cy_yolo2_findboxes.pyx":57
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":57
  *         np.intp_t H, W, _, C, B, row, col, box_loop, class_loop
  *         np.intp_t row1, col1, box_loop1,index,index2
  *         float  threshold = meta['thresh']             # <<<<<<<<<<<<<<
@@ -2795,7 +2795,7 @@ static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_threshold = __pyx_t_2;
 
-  /* "cy_yolo2_findboxes.pyx":58
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":58
  *         np.intp_t row1, col1, box_loop1,index,index2
  *         float  threshold = meta['thresh']
  *         float tempc,arr_max=0,sum=0             # <<<<<<<<<<<<<<
@@ -2805,7 +2805,7 @@ static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyO
   __pyx_v_arr_max = 0.0;
   __pyx_v_sum = 0.0;
 
-  /* "cy_yolo2_findboxes.pyx":59
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":59
  *         float  threshold = meta['thresh']
  *         float tempc,arr_max=0,sum=0
  *         double[:] anchors = np.asarray(meta['anchors'])             # <<<<<<<<<<<<<<
@@ -2872,7 +2872,7 @@ static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyO
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "cy_yolo2_findboxes.pyx":60
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":60
  *         float tempc,arr_max=0,sum=0
  *         double[:] anchors = np.asarray(meta['anchors'])
  *         list boxes = list()             # <<<<<<<<<<<<<<
@@ -2884,7 +2884,7 @@ static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyO
   __pyx_v_boxes = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "cy_yolo2_findboxes.pyx":62
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":62
  *         list boxes = list()
  * 
  *     H, W, _ = meta['out_size']             # <<<<<<<<<<<<<<
@@ -2960,7 +2960,7 @@ static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyO
   __pyx_v_W = __pyx_t_10;
   __pyx_v__ = __pyx_t_11;
 
-  /* "cy_yolo2_findboxes.pyx":63
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":63
  * 
  *     H, W, _ = meta['out_size']
  *     C = meta['classes']             # <<<<<<<<<<<<<<
@@ -2973,7 +2973,7 @@ static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_C = __pyx_t_11;
 
-  /* "cy_yolo2_findboxes.pyx":64
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":64
  *     H, W, _ = meta['out_size']
  *     C = meta['classes']
  *     B = meta['num']             # <<<<<<<<<<<<<<
@@ -2986,7 +2986,7 @@ static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyO
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_B = __pyx_t_11;
 
-  /* "cy_yolo2_findboxes.pyx":67
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":67
  * 
  *     cdef:
  *         float[:, :, :, ::1] net_out = net_out_in.reshape([H, W, B, net_out_in.shape[2]/B])             # <<<<<<<<<<<<<<
@@ -3070,7 +3070,7 @@ static PyObject *__pyx_pf_18cy_yolo2_findboxes_box_constructor(CYTHON_UNUSED PyO
   __pyx_t_14.memview = NULL;
   __pyx_t_14.data = NULL;
 
-  /* "cy_yolo2_findboxes.pyx":68
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":68
  *     cdef:
  *         float[:, :, :, ::1] net_out = net_out_in.reshape([H, W, B, net_out_in.shape[2]/B])
  *         float[:, :, :, ::1] Classes = net_out[:, :, :, 5:]             # <<<<<<<<<<<<<<
@@ -3114,7 +3114,7 @@ __pyx_v_Classes = __pyx_t_14;
   __pyx_t_14.memview = NULL;
   __pyx_t_14.data = NULL;
 
-  /* "cy_yolo2_findboxes.pyx":69
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":69
  *         float[:, :, :, ::1] net_out = net_out_in.reshape([H, W, B, net_out_in.shape[2]/B])
  *         float[:, :, :, ::1] Classes = net_out[:, :, :, 5:]
  *         float[:, :, :, ::1] Bbox_pred =  net_out[:, :, :, :5]             # <<<<<<<<<<<<<<
@@ -3158,7 +3158,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
   __pyx_t_14.memview = NULL;
   __pyx_t_14.data = NULL;
 
-  /* "cy_yolo2_findboxes.pyx":70
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":70
  *         float[:, :, :, ::1] Classes = net_out[:, :, :, 5:]
  *         float[:, :, :, ::1] Bbox_pred =  net_out[:, :, :, :5]
  *         float[:, :, :, ::1] probs = np.zeros((H, W, B, C), dtype=np.float32)             # <<<<<<<<<<<<<<
@@ -3218,7 +3218,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
   __pyx_t_14.memview = NULL;
   __pyx_t_14.data = NULL;
 
-  /* "cy_yolo2_findboxes.pyx":72
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":72
  *         float[:, :, :, ::1] probs = np.zeros((H, W, B, C), dtype=np.float32)
  * 
  *     for row in range(H):             # <<<<<<<<<<<<<<
@@ -3229,7 +3229,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
   for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_11; __pyx_t_10+=1) {
     __pyx_v_row = __pyx_t_10;
 
-    /* "cy_yolo2_findboxes.pyx":73
+    /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":73
  * 
  *     for row in range(H):
  *         for col in range(W):             # <<<<<<<<<<<<<<
@@ -3240,7 +3240,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
     for (__pyx_t_16 = 0; __pyx_t_16 < __pyx_t_9; __pyx_t_16+=1) {
       __pyx_v_col = __pyx_t_16;
 
-      /* "cy_yolo2_findboxes.pyx":74
+      /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":74
  *     for row in range(H):
  *         for col in range(W):
  *             for box_loop in range(B):             # <<<<<<<<<<<<<<
@@ -3251,7 +3251,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
       for (__pyx_t_18 = 0; __pyx_t_18 < __pyx_t_17; __pyx_t_18+=1) {
         __pyx_v_box_loop = __pyx_t_18;
 
-        /* "cy_yolo2_findboxes.pyx":75
+        /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":75
  *         for col in range(W):
  *             for box_loop in range(B):
  *                 arr_max=0             # <<<<<<<<<<<<<<
@@ -3260,7 +3260,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
  */
         __pyx_v_arr_max = 0.0;
 
-        /* "cy_yolo2_findboxes.pyx":76
+        /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":76
  *             for box_loop in range(B):
  *                 arr_max=0
  *                 sum=0;             # <<<<<<<<<<<<<<
@@ -3269,7 +3269,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
  */
         __pyx_v_sum = 0.0;
 
-        /* "cy_yolo2_findboxes.pyx":77
+        /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":77
  *                 arr_max=0
  *                 sum=0;
  *                 Bbox_pred[row, col, box_loop, 4] = expit_c(Bbox_pred[row, col, box_loop, 4])             # <<<<<<<<<<<<<<
@@ -3284,9 +3284,9 @@ __pyx_v_Bbox_pred = __pyx_t_14;
         __pyx_t_24 = __pyx_v_col;
         __pyx_t_25 = __pyx_v_box_loop;
         __pyx_t_26 = 4;
-        *((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_23 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_24 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_25 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_26)) )) = __pyx_f_18cy_yolo2_findboxes_expit_c((*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_19 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_20 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_21 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_22)) ))));
+        *((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_23 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_24 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_25 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_26)) )) = __pyx_f_8darkflow_12cython_utils_18cy_yolo2_findboxes_expit_c((*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_19 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_20 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_21 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_22)) ))));
 
-        /* "cy_yolo2_findboxes.pyx":78
+        /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":78
  *                 sum=0;
  *                 Bbox_pred[row, col, box_loop, 4] = expit_c(Bbox_pred[row, col, box_loop, 4])
  *                 Bbox_pred[row, col, box_loop, 0] = (col + expit_c(Bbox_pred[row, col, box_loop, 0])) / W             # <<<<<<<<<<<<<<
@@ -3301,9 +3301,9 @@ __pyx_v_Bbox_pred = __pyx_t_14;
         __pyx_t_32 = __pyx_v_col;
         __pyx_t_33 = __pyx_v_box_loop;
         __pyx_t_34 = 0;
-        *((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_31 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_32 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_33 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_34)) )) = ((__pyx_v_col + __pyx_f_18cy_yolo2_findboxes_expit_c((*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_27 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_28 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_29 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_30)) ))))) / __pyx_v_W);
+        *((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_31 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_32 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_33 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_34)) )) = ((__pyx_v_col + __pyx_f_8darkflow_12cython_utils_18cy_yolo2_findboxes_expit_c((*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_27 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_28 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_29 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_30)) ))))) / __pyx_v_W);
 
-        /* "cy_yolo2_findboxes.pyx":79
+        /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":79
  *                 Bbox_pred[row, col, box_loop, 4] = expit_c(Bbox_pred[row, col, box_loop, 4])
  *                 Bbox_pred[row, col, box_loop, 0] = (col + expit_c(Bbox_pred[row, col, box_loop, 0])) / W
  *                 Bbox_pred[row, col, box_loop, 1] = (row + expit_c(Bbox_pred[row, col, box_loop, 1])) / H             # <<<<<<<<<<<<<<
@@ -3318,9 +3318,9 @@ __pyx_v_Bbox_pred = __pyx_t_14;
         __pyx_t_40 = __pyx_v_col;
         __pyx_t_41 = __pyx_v_box_loop;
         __pyx_t_42 = 1;
-        *((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_39 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_40 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_41 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_42)) )) = ((__pyx_v_row + __pyx_f_18cy_yolo2_findboxes_expit_c((*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_35 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_36 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_37 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_38)) ))))) / __pyx_v_H);
+        *((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_39 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_40 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_41 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_42)) )) = ((__pyx_v_row + __pyx_f_8darkflow_12cython_utils_18cy_yolo2_findboxes_expit_c((*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_35 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_36 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_37 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_38)) ))))) / __pyx_v_H);
 
-        /* "cy_yolo2_findboxes.pyx":80
+        /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":80
  *                 Bbox_pred[row, col, box_loop, 0] = (col + expit_c(Bbox_pred[row, col, box_loop, 0])) / W
  *                 Bbox_pred[row, col, box_loop, 1] = (row + expit_c(Bbox_pred[row, col, box_loop, 1])) / H
  *                 Bbox_pred[row, col, box_loop, 2] = exp(Bbox_pred[row, col, box_loop, 2]) * anchors[2 * box_loop + 0] / W             # <<<<<<<<<<<<<<
@@ -3338,7 +3338,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
         __pyx_t_51 = 2;
         *((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_48 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_49 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_50 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_51)) )) = ((exp((*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_43 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_44 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_45 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_46)) )))) * (*((double *) ( /* dim=0 */ (__pyx_v_anchors.data + __pyx_t_47 * __pyx_v_anchors.strides[0]) )))) / __pyx_v_W);
 
-        /* "cy_yolo2_findboxes.pyx":81
+        /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":81
  *                 Bbox_pred[row, col, box_loop, 1] = (row + expit_c(Bbox_pred[row, col, box_loop, 1])) / H
  *                 Bbox_pred[row, col, box_loop, 2] = exp(Bbox_pred[row, col, box_loop, 2]) * anchors[2 * box_loop + 0] / W
  *                 Bbox_pred[row, col, box_loop, 3] = exp(Bbox_pred[row, col, box_loop, 3]) * anchors[2 * box_loop + 1] / H             # <<<<<<<<<<<<<<
@@ -3356,7 +3356,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
         __pyx_t_60 = 3;
         *((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_57 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_58 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_59 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_60)) )) = ((exp((*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_52 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_53 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_54 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_55)) )))) * (*((double *) ( /* dim=0 */ (__pyx_v_anchors.data + __pyx_t_56 * __pyx_v_anchors.strides[0]) )))) / __pyx_v_H);
 
-        /* "cy_yolo2_findboxes.pyx":83
+        /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":83
  *                 Bbox_pred[row, col, box_loop, 3] = exp(Bbox_pred[row, col, box_loop, 3]) * anchors[2 * box_loop + 1] / H
  *                 #SOFTMAX BLOCK, no more pointer juggling
  *                 for class_loop in range(C):             # <<<<<<<<<<<<<<
@@ -3367,7 +3367,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
         for (__pyx_t_62 = 0; __pyx_t_62 < __pyx_t_61; __pyx_t_62+=1) {
           __pyx_v_class_loop = __pyx_t_62;
 
-          /* "cy_yolo2_findboxes.pyx":84
+          /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":84
  *                 #SOFTMAX BLOCK, no more pointer juggling
  *                 for class_loop in range(C):
  *                     arr_max=max_c(arr_max,Classes[row,col,box_loop,class_loop])             # <<<<<<<<<<<<<<
@@ -3378,10 +3378,10 @@ __pyx_v_Bbox_pred = __pyx_t_14;
           __pyx_t_64 = __pyx_v_col;
           __pyx_t_65 = __pyx_v_box_loop;
           __pyx_t_66 = __pyx_v_class_loop;
-          __pyx_v_arr_max = __pyx_f_18cy_yolo2_findboxes_max_c(__pyx_v_arr_max, (*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Classes.data + __pyx_t_63 * __pyx_v_Classes.strides[0]) ) + __pyx_t_64 * __pyx_v_Classes.strides[1]) ) + __pyx_t_65 * __pyx_v_Classes.strides[2]) )) + __pyx_t_66)) ))));
+          __pyx_v_arr_max = __pyx_f_8darkflow_12cython_utils_18cy_yolo2_findboxes_max_c(__pyx_v_arr_max, (*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Classes.data + __pyx_t_63 * __pyx_v_Classes.strides[0]) ) + __pyx_t_64 * __pyx_v_Classes.strides[1]) ) + __pyx_t_65 * __pyx_v_Classes.strides[2]) )) + __pyx_t_66)) ))));
         }
 
-        /* "cy_yolo2_findboxes.pyx":86
+        /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":86
  *                     arr_max=max_c(arr_max,Classes[row,col,box_loop,class_loop])
  * 
  *                 for class_loop in range(C):             # <<<<<<<<<<<<<<
@@ -3392,7 +3392,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
         for (__pyx_t_62 = 0; __pyx_t_62 < __pyx_t_61; __pyx_t_62+=1) {
           __pyx_v_class_loop = __pyx_t_62;
 
-          /* "cy_yolo2_findboxes.pyx":87
+          /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":87
  * 
  *                 for class_loop in range(C):
  *                     Classes[row,col,box_loop,class_loop]=exp(Classes[row,col,box_loop,class_loop]-arr_max)             # <<<<<<<<<<<<<<
@@ -3409,7 +3409,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
           __pyx_t_74 = __pyx_v_class_loop;
           *((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Classes.data + __pyx_t_71 * __pyx_v_Classes.strides[0]) ) + __pyx_t_72 * __pyx_v_Classes.strides[1]) ) + __pyx_t_73 * __pyx_v_Classes.strides[2]) )) + __pyx_t_74)) )) = exp(((*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Classes.data + __pyx_t_67 * __pyx_v_Classes.strides[0]) ) + __pyx_t_68 * __pyx_v_Classes.strides[1]) ) + __pyx_t_69 * __pyx_v_Classes.strides[2]) )) + __pyx_t_70)) ))) - __pyx_v_arr_max));
 
-          /* "cy_yolo2_findboxes.pyx":88
+          /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":88
  *                 for class_loop in range(C):
  *                     Classes[row,col,box_loop,class_loop]=exp(Classes[row,col,box_loop,class_loop]-arr_max)
  *                     sum+=Classes[row,col,box_loop,class_loop]             # <<<<<<<<<<<<<<
@@ -3423,7 +3423,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
           __pyx_v_sum = (__pyx_v_sum + (*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Classes.data + __pyx_t_75 * __pyx_v_Classes.strides[0]) ) + __pyx_t_76 * __pyx_v_Classes.strides[1]) ) + __pyx_t_77 * __pyx_v_Classes.strides[2]) )) + __pyx_t_78)) ))));
         }
 
-        /* "cy_yolo2_findboxes.pyx":90
+        /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":90
  *                     sum+=Classes[row,col,box_loop,class_loop]
  * 
  *                 for class_loop in range(C):             # <<<<<<<<<<<<<<
@@ -3434,7 +3434,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
         for (__pyx_t_62 = 0; __pyx_t_62 < __pyx_t_61; __pyx_t_62+=1) {
           __pyx_v_class_loop = __pyx_t_62;
 
-          /* "cy_yolo2_findboxes.pyx":91
+          /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":91
  * 
  *                 for class_loop in range(C):
  *                     tempc = Classes[row, col, box_loop, class_loop] * Bbox_pred[row, col, box_loop, 4]/sum             # <<<<<<<<<<<<<<
@@ -3451,7 +3451,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
           __pyx_t_86 = 4;
           __pyx_v_tempc = (((*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Classes.data + __pyx_t_79 * __pyx_v_Classes.strides[0]) ) + __pyx_t_80 * __pyx_v_Classes.strides[1]) ) + __pyx_t_81 * __pyx_v_Classes.strides[2]) )) + __pyx_t_82)) ))) * (*((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_Bbox_pred.data + __pyx_t_83 * __pyx_v_Bbox_pred.strides[0]) ) + __pyx_t_84 * __pyx_v_Bbox_pred.strides[1]) ) + __pyx_t_85 * __pyx_v_Bbox_pred.strides[2]) )) + __pyx_t_86)) )))) / __pyx_v_sum);
 
-          /* "cy_yolo2_findboxes.pyx":92
+          /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":92
  *                 for class_loop in range(C):
  *                     tempc = Classes[row, col, box_loop, class_loop] * Bbox_pred[row, col, box_loop, 4]/sum
  *                     if(tempc > threshold):             # <<<<<<<<<<<<<<
@@ -3461,7 +3461,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
           __pyx_t_87 = ((__pyx_v_tempc > __pyx_v_threshold) != 0);
           if (__pyx_t_87) {
 
-            /* "cy_yolo2_findboxes.pyx":93
+            /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":93
  *                     tempc = Classes[row, col, box_loop, class_loop] * Bbox_pred[row, col, box_loop, 4]/sum
  *                     if(tempc > threshold):
  *                         probs[row, col, box_loop, class_loop] = tempc             # <<<<<<<<<<<<<<
@@ -3474,7 +3474,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
             __pyx_t_91 = __pyx_v_class_loop;
             *((float *) ( /* dim=3 */ ((char *) (((float *) ( /* dim=2 */ (( /* dim=1 */ (( /* dim=0 */ (__pyx_v_probs.data + __pyx_t_88 * __pyx_v_probs.strides[0]) ) + __pyx_t_89 * __pyx_v_probs.strides[1]) ) + __pyx_t_90 * __pyx_v_probs.strides[2]) )) + __pyx_t_91)) )) = __pyx_v_tempc;
 
-            /* "cy_yolo2_findboxes.pyx":92
+            /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":92
  *                 for class_loop in range(C):
  *                     tempc = Classes[row, col, box_loop, class_loop] * Bbox_pred[row, col, box_loop, 4]/sum
  *                     if(tempc > threshold):             # <<<<<<<<<<<<<<
@@ -3487,7 +3487,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
     }
   }
 
-  /* "cy_yolo2_findboxes.pyx":97
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":97
  * 
  *     #NMS
  *     return NMS(np.ascontiguousarray(probs).reshape(H*W*B,C), np.ascontiguousarray(Bbox_pred).reshape(H*B*W,5))             # <<<<<<<<<<<<<<
@@ -3713,7 +3713,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
   __pyx_t_93 = __Pyx_PyObject_to_MemoryviewSlice_d_dc_float(__pyx_t_5);
   if (unlikely(!__pyx_t_93.memview)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __pyx_f_3nms_NMS(__pyx_t_92, __pyx_t_93); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 97, __pyx_L1_error)
+  __pyx_t_5 = __pyx_f_8darkflow_12cython_utils_3nms_NMS(__pyx_t_92, __pyx_t_93); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __PYX_XDEC_MEMVIEW(&__pyx_t_92, 1);
   __pyx_t_92.memview = NULL;
@@ -3725,7 +3725,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "cy_yolo2_findboxes.pyx":53
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":53
  * @cython.boundscheck(False) # turn off bounds-checking for entire function
  * @cython.wraparound(False)  # turn off negative index wrapping for entire function
  * def box_constructor(meta,np.ndarray[float,ndim=3] net_out_in):             # <<<<<<<<<<<<<<
@@ -3752,7 +3752,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_net_out_in.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("cy_yolo2_findboxes.box_constructor", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("darkflow.cython_utils.cy_yolo2_findboxes.box_constructor", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3769,7 +3769,7 @@ __pyx_v_Bbox_pred = __pyx_t_14;
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":214
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":214
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -3816,7 +3816,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_GIVEREF(__pyx_v_info->obj);
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":220
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":220
  *             # of flags
  * 
  *             if info == NULL: return             # <<<<<<<<<<<<<<
@@ -3829,7 +3829,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L0;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":223
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":223
  * 
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -3838,7 +3838,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":224
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":224
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -3847,7 +3847,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":226
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":226
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -3856,7 +3856,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":228
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":228
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -3866,7 +3866,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":229
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":229
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 copy_shape = 1             # <<<<<<<<<<<<<<
@@ -3875,7 +3875,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_copy_shape = 1;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":228
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":228
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -3885,7 +3885,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L4;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":231
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":231
  *                 copy_shape = 1
  *             else:
  *                 copy_shape = 0             # <<<<<<<<<<<<<<
@@ -3897,7 +3897,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L4:;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":233
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -3911,7 +3911,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L6_bool_binop_done;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":234
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":234
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -3922,7 +3922,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L6_bool_binop_done:;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":233
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -3931,7 +3931,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":235
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":235
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -3944,7 +3944,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(1, 235, __pyx_L1_error)
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":233
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -3953,7 +3953,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":237
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -3967,7 +3967,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L9_bool_binop_done;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":238
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":238
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -3978,7 +3978,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L9_bool_binop_done:;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":237
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -3987,7 +3987,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":239
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":239
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -4000,7 +4000,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(1, 239, __pyx_L1_error)
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":237
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -4009,7 +4009,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":241
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":241
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -4018,7 +4018,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":242
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":242
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -4027,7 +4027,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":243
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":243
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -4037,7 +4037,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (__pyx_v_copy_shape != 0);
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":246
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":246
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)             # <<<<<<<<<<<<<<
@@ -4046,7 +4046,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)PyObject_Malloc((((sizeof(Py_ssize_t)) * 2) * ((size_t)__pyx_v_ndim))));
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":247
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":247
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -4055,7 +4055,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":248
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":248
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -4066,7 +4066,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
       __pyx_v_i = __pyx_t_5;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":249
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":249
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -4075,7 +4075,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":250
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":250
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -4085,7 +4085,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       (__pyx_v_info->shape[__pyx_v_i]) = (PyArray_DIMS(__pyx_v_self)[__pyx_v_i]);
     }
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":243
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":243
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -4095,7 +4095,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L11;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":252
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":252
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -4105,7 +4105,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":253
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":253
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -4116,7 +4116,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L11:;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":254
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":254
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -4125,7 +4125,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":255
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":255
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -4134,7 +4134,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":256
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":256
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -4143,7 +4143,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":259
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":259
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -4152,7 +4152,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":260
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":260
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = self.descr             # <<<<<<<<<<<<<<
@@ -4164,7 +4164,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":263
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":263
  *             cdef int offset
  * 
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)             # <<<<<<<<<<<<<<
@@ -4173,7 +4173,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_hasfields = PyDataType_HASFIELDS(__pyx_v_descr);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":265
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":265
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -4191,7 +4191,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L15_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":267
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":267
  *             if not hasfields and not copy_shape:
  *                 # do not call releasebuffer
  *                 info.obj = None             # <<<<<<<<<<<<<<
@@ -4204,7 +4204,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_v_info->obj);
     __pyx_v_info->obj = Py_None;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":265
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":265
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -4214,7 +4214,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L14;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":270
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             else:
  *                 # need to call releasebuffer
  *                 info.obj = self             # <<<<<<<<<<<<<<
@@ -4230,7 +4230,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L14:;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":272
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -4240,7 +4240,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(__pyx_v_hasfields != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":273
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":273
  * 
  *             if not hasfields:
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -4250,7 +4250,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -4270,7 +4270,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L20_next_or:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":275
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":275
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -4287,7 +4287,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_1 = __pyx_t_2;
     __pyx_L19_bool_binop_done:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -4296,7 +4296,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     if (__pyx_t_1) {
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":276
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -4309,7 +4309,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 276, __pyx_L1_error)
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":274
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -4318,7 +4318,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     }
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":277
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":277
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -4330,7 +4330,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"b");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":278
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":278
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -4341,7 +4341,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"B");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":279
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":279
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -4352,7 +4352,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"h");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":280
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -4363,7 +4363,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"H");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":281
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":281
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -4374,7 +4374,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"i");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":282
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":282
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -4385,7 +4385,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"I");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":283
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":283
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -4396,7 +4396,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"l");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":284
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":284
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -4407,7 +4407,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"L");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":285
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":285
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -4418,7 +4418,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"q");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":286
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":286
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -4429,7 +4429,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Q");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":287
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":287
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -4440,7 +4440,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"f");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":288
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":288
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -4451,7 +4451,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"d");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":289
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":289
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -4462,7 +4462,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"g");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":290
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":290
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -4473,7 +4473,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zf");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":291
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":291
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -4484,7 +4484,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zd");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":292
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":292
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -4495,7 +4495,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zg");
       break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":293
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":293
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -4507,7 +4507,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":295
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":295
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -4533,7 +4533,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":296
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":296
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -4542,7 +4542,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":297
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":297
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -4552,7 +4552,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_r = 0;
     goto __pyx_L0;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":272
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -4561,7 +4561,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":299
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":299
  *                 return
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -4571,7 +4571,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->format = ((char *)PyObject_Malloc(0xFF));
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":300
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":300
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -4580,7 +4580,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":301
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":301
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -4589,7 +4589,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":302
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":302
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -4599,7 +4599,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_7 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 0xFF), (&__pyx_v_offset)); if (unlikely(__pyx_t_7 == ((char *)NULL))) __PYX_ERR(1, 302, __pyx_L1_error)
     __pyx_v_f = __pyx_t_7;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":305
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":305
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -4609,7 +4609,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":214
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":214
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -4641,7 +4641,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":307
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":307
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -4665,7 +4665,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":308
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":308
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -4675,7 +4675,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":309
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":309
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)             # <<<<<<<<<<<<<<
@@ -4684,7 +4684,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->format);
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":308
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":308
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -4693,7 +4693,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":310
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":310
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -4703,7 +4703,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":311
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":311
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 PyObject_Free(info.strides)             # <<<<<<<<<<<<<<
@@ -4712,7 +4712,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->strides);
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":310
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":310
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -4721,7 +4721,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":307
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":307
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -4733,7 +4733,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":788
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":788
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -4747,7 +4747,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":789
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":789
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -4761,7 +4761,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":788
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":788
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -4780,7 +4780,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":791
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":791
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -4794,7 +4794,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":792
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":792
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -4808,7 +4808,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":791
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":791
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -4827,7 +4827,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":794
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -4841,7 +4841,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":795
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":795
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -4855,7 +4855,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":794
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -4874,7 +4874,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":797
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":797
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -4888,7 +4888,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":798
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":798
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -4902,7 +4902,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":797
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":797
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -4921,7 +4921,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":800
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":800
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -4935,7 +4935,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":801
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":801
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -4949,7 +4949,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":800
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":800
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -4968,7 +4968,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":803
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":803
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -4982,7 +4982,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":804
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":804
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -4992,7 +4992,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":805
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":805
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -5004,7 +5004,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":804
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":804
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -5013,7 +5013,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":807
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":807
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -5027,7 +5027,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":803
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":803
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -5042,7 +5042,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":809
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":809
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -5071,7 +5071,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   char *__pyx_t_9;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":814
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":814
  * 
  *     cdef dtype child
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -5080,7 +5080,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":815
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":815
  *     cdef dtype child
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -5089,7 +5089,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":818
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":818
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -5112,7 +5112,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":819
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":819
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -5129,7 +5129,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":820
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":820
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -5168,7 +5168,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":822
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":822
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -5185,7 +5185,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":823
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":823
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -5198,7 +5198,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 823, __pyx_L1_error)
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":822
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":822
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -5207,7 +5207,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":825
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -5227,7 +5227,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":826
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":826
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -5244,7 +5244,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = __pyx_t_7;
     __pyx_L7_bool_binop_done:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":825
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -5253,7 +5253,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     if (__pyx_t_6) {
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":827
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -5266,7 +5266,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 827, __pyx_L1_error)
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":825
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -5275,7 +5275,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":837
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":837
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -5291,7 +5291,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":838
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":838
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -5300,7 +5300,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 0x78;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":839
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":839
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -5309,7 +5309,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":840
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":840
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -5320,7 +5320,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":842
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -5330,7 +5330,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":844
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":844
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -5340,7 +5340,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":845
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":845
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -5352,7 +5352,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":846
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":846
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -5362,7 +5362,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (__pyx_t_6) {
 
-        /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":847
+        /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":847
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -5375,7 +5375,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __PYX_ERR(1, 847, __pyx_L1_error)
 
-        /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":846
+        /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":846
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -5384,7 +5384,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":850
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":850
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -5402,7 +5402,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":851
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":851
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -5420,7 +5420,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":852
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":852
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -5438,7 +5438,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":853
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":853
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -5456,7 +5456,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":854
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":854
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -5474,7 +5474,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":855
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":855
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -5492,7 +5492,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":856
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":856
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -5510,7 +5510,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":857
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":857
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -5528,7 +5528,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":858
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -5546,7 +5546,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":859
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":859
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -5564,7 +5564,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":860
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":860
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -5582,7 +5582,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":861
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":861
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -5600,7 +5600,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":862
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":862
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -5618,7 +5618,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":863
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":863
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -5638,7 +5638,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":864
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":864
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -5658,7 +5658,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":865
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":865
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -5678,7 +5678,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":866
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":866
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -5696,7 +5696,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":868
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":868
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -5720,7 +5720,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":869
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":869
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -5729,7 +5729,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":844
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":844
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -5739,7 +5739,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       goto __pyx_L13;
     }
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":873
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":873
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -5752,7 +5752,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":818
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":818
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -5762,7 +5762,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":874
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":874
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -5772,7 +5772,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":809
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":809
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -5797,7 +5797,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":990
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":990
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -5812,7 +5812,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":992
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":992
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -5823,7 +5823,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":993
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":993
  *      cdef PyObject* baseptr
  *      if base is None:
  *          baseptr = NULL             # <<<<<<<<<<<<<<
@@ -5832,7 +5832,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
     __pyx_v_baseptr = NULL;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":992
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":992
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -5842,7 +5842,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
     goto __pyx_L3;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":995
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":995
  *          baseptr = NULL
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!             # <<<<<<<<<<<<<<
@@ -5852,7 +5852,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   /*else*/ {
     Py_INCREF(__pyx_v_base);
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":996
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":996
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base             # <<<<<<<<<<<<<<
@@ -5863,7 +5863,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   __pyx_L3:;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":997
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":997
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)             # <<<<<<<<<<<<<<
@@ -5872,7 +5872,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_XDECREF(__pyx_v_arr->base);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":998
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":998
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)
  *      arr.base = baseptr             # <<<<<<<<<<<<<<
@@ -5881,7 +5881,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   __pyx_v_arr->base = __pyx_v_baseptr;
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":990
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":990
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -5893,7 +5893,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1000
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1000
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -5907,7 +5907,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1001
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1001
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -5917,7 +5917,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_arr->base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1002
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1002
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -5929,7 +5929,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None;
     goto __pyx_L0;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1001
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1001
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -5938,7 +5938,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1004
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1004
  *         return None
  *     else:
  *         return <object>arr.base             # <<<<<<<<<<<<<<
@@ -5952,7 +5952,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     goto __pyx_L0;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1000
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1000
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -5967,7 +5967,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1009
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1009
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -5988,7 +5988,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1010
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6004,7 +6004,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1011
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1011
  * cdef inline int import_array() except -1:
  *     try:
  *         _import_array()             # <<<<<<<<<<<<<<
@@ -6013,7 +6013,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 1011, __pyx_L3_error)
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1010
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6027,7 +6027,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1012
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1012
  *     try:
  *         _import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -6042,7 +6042,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1013
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1013
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -6058,7 +6058,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1010
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6073,7 +6073,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1009
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1009
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -6096,7 +6096,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1015
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1015
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -6117,7 +6117,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1016
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6133,7 +6133,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1017
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1017
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -6142,7 +6142,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 1017, __pyx_L3_error)
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1016
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6156,7 +6156,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1018
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1018
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -6171,7 +6171,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1019
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1019
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -6187,7 +6187,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1016
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6202,7 +6202,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1015
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1015
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -6225,7 +6225,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1021
+/* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1021
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -6246,7 +6246,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6262,7 +6262,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1023
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1023
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -6271,7 +6271,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 1023, __pyx_L3_error)
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6285,7 +6285,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1024
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1024
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -6299,7 +6299,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1025
+      /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1025
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -6313,7 +6313,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+    /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6328,7 +6328,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1021
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1021
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -19280,7 +19280,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cy_yolo2_findboxes.array", /*tp_name*/
+  "darkflow.cython_utils.cy_yolo2_findboxes.array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -19388,7 +19388,7 @@ static PyMethodDef __pyx_methods_Enum[] = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cy_yolo2_findboxes.Enum", /*tp_name*/
+  "darkflow.cython_utils.cy_yolo2_findboxes.Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -19638,7 +19638,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cy_yolo2_findboxes.memoryview", /*tp_name*/
+  "darkflow.cython_utils.cy_yolo2_findboxes.memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -19765,7 +19765,7 @@ static struct PyGetSetDef __pyx_getsets__memoryviewslice[] = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "cy_yolo2_findboxes._memoryviewslice", /*tp_name*/
+  "darkflow.cython_utils.cy_yolo2_findboxes._memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -19920,8 +19920,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_col1, __pyx_k_col1, sizeof(__pyx_k_col1), 0, 0, 1, 1},
   {&__pyx_kp_s_contiguous_and_direct, __pyx_k_contiguous_and_direct, sizeof(__pyx_k_contiguous_and_direct), 0, 0, 1, 0},
   {&__pyx_kp_s_contiguous_and_indirect, __pyx_k_contiguous_and_indirect, sizeof(__pyx_k_contiguous_and_indirect), 0, 0, 1, 0},
-  {&__pyx_n_s_cy_yolo2_findboxes, __pyx_k_cy_yolo2_findboxes, sizeof(__pyx_k_cy_yolo2_findboxes), 0, 0, 1, 1},
   {&__pyx_kp_s_darkflow_cython_utils_cy_yolo2_f, __pyx_k_darkflow_cython_utils_cy_yolo2_f, sizeof(__pyx_k_darkflow_cython_utils_cy_yolo2_f), 0, 0, 1, 0},
+  {&__pyx_n_s_darkflow_cython_utils_cy_yolo2_f_2, __pyx_k_darkflow_cython_utils_cy_yolo2_f_2, sizeof(__pyx_k_darkflow_cython_utils_cy_yolo2_f_2), 0, 0, 1, 1},
   {&__pyx_n_s_dict, __pyx_k_dict, sizeof(__pyx_k_dict), 0, 0, 1, 1},
   {&__pyx_n_s_dtype, __pyx_k_dtype, sizeof(__pyx_k_dtype), 0, 0, 1, 1},
   {&__pyx_n_s_dtype_is_object, __pyx_k_dtype_is_object, sizeof(__pyx_k_dtype_is_object), 0, 0, 1, 1},
@@ -20025,7 +20025,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":235
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":235
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -20036,7 +20036,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":239
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":239
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -20047,7 +20047,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":276
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -20058,7 +20058,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":823
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":823
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -20069,7 +20069,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":827
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -20080,7 +20080,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":847
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":847
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -20091,7 +20091,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1013
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1013
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -20102,7 +20102,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1019
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1019
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -20113,7 +20113,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../../AppData/Local/Programs/Python/Python36/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1025
+  /* "C:/ProgramData/Miniconda3/envs/SOFT2017/lib/site-packages/Cython/Includes/numpy/__init__.pxd":1025
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -20325,7 +20325,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__28);
   __Pyx_GIVEREF(__pyx_tuple__28);
 
-  /* "cy_yolo2_findboxes.pyx":53
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":53
  * @cython.boundscheck(False) # turn off bounds-checking for entire function
  * @cython.wraparound(False)  # turn off negative index wrapping for entire function
  * def box_constructor(meta,np.ndarray[float,ndim=3] net_out_in):             # <<<<<<<<<<<<<<
@@ -20541,14 +20541,14 @@ static int __pyx_pymod_exec_cy_yolo2_findboxes(PyObject *__pyx_pyinit_module)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_cy_yolo2_findboxes) {
+  if (__pyx_module_is_main_darkflow__cython_utils__cy_yolo2_findboxes) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "cy_yolo2_findboxes")) {
-      if (unlikely(PyDict_SetItemString(modules, "cy_yolo2_findboxes", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "darkflow.cython_utils.cy_yolo2_findboxes")) {
+      if (unlikely(PyDict_SetItemString(modules, "darkflow.cython_utils.cy_yolo2_findboxes", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -20614,15 +20614,15 @@ static int __pyx_pymod_exec_cy_yolo2_findboxes(PyObject *__pyx_pyinit_module)
   __pyx_ptype_5numpy_ufunc = __Pyx_ImportType("numpy", "ufunc", sizeof(PyUFuncObject), 0); if (unlikely(!__pyx_ptype_5numpy_ufunc)) __PYX_ERR(1, 885, __pyx_L1_error)
   /*--- Variable import code ---*/
   /*--- Function import code ---*/
-  __pyx_t_1 = __Pyx_ImportModule("nms"); if (!__pyx_t_1) __PYX_ERR(0, 1, __pyx_L1_error)
-  if (__Pyx_ImportFunction(__pyx_t_1, "NMS", (void (**)(void))&__pyx_f_3nms_NMS, "PyObject *(__Pyx_memviewslice, __Pyx_memviewslice)") < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_ImportModule("darkflow.cython_utils.nms"); if (!__pyx_t_1) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_ImportFunction(__pyx_t_1, "NMS", (void (**)(void))&__pyx_f_8darkflow_12cython_utils_3nms_NMS, "PyObject *(__Pyx_memviewslice, __Pyx_memviewslice)") < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   Py_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   /*--- Execution code ---*/
   #if defined(__Pyx_Generator_USED) || defined(__Pyx_Coroutine_USED)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "cy_yolo2_findboxes.pyx":1
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * cimport numpy as np
  * cimport cython
@@ -20632,7 +20632,7 @@ static int __pyx_pymod_exec_cy_yolo2_findboxes(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "cy_yolo2_findboxes.pyx":6
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":6
  * ctypedef np.float_t DTYPE_t
  * from libc.math cimport exp
  * from ..utils.box import BoundBox             # <<<<<<<<<<<<<<
@@ -20653,19 +20653,19 @@ static int __pyx_pymod_exec_cy_yolo2_findboxes(PyObject *__pyx_pyinit_module)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "cy_yolo2_findboxes.pyx":53
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":53
  * @cython.boundscheck(False) # turn off bounds-checking for entire function
  * @cython.wraparound(False)  # turn off negative index wrapping for entire function
  * def box_constructor(meta,np.ndarray[float,ndim=3] net_out_in):             # <<<<<<<<<<<<<<
  *     cdef:
  *         np.intp_t H, W, _, C, B, row, col, box_loop, class_loop
  */
-  __pyx_t_3 = PyCFunction_NewEx(&__pyx_mdef_18cy_yolo2_findboxes_1box_constructor, NULL, __pyx_n_s_cy_yolo2_findboxes); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 53, __pyx_L1_error)
+  __pyx_t_3 = PyCFunction_NewEx(&__pyx_mdef_8darkflow_12cython_utils_18cy_yolo2_findboxes_1box_constructor, NULL, __pyx_n_s_darkflow_cython_utils_cy_yolo2_f_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 53, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_box_constructor, __pyx_t_3) < 0) __PYX_ERR(0, 53, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "cy_yolo2_findboxes.pyx":1
+  /* "darkflow/cython_utils/cy_yolo2_findboxes.pyx":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * cimport numpy as np
  * cimport cython
@@ -20837,11 +20837,11 @@ static int __pyx_pymod_exec_cy_yolo2_findboxes(PyObject *__pyx_pyinit_module)
   __Pyx_XDECREF(__pyx_t_3);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init cy_yolo2_findboxes", 0, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init darkflow.cython_utils.cy_yolo2_findboxes", 0, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init cy_yolo2_findboxes");
+    PyErr_SetString(PyExc_ImportError, "init darkflow.cython_utils.cy_yolo2_findboxes");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

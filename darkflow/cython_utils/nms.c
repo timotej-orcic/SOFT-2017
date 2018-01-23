@@ -4,11 +4,11 @@
 {
     "distutils": {
         "depends": [
-            "C:\\Users\\Tima\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\numpy\\core\\include\\numpy\\arrayobject.h",
-            "C:\\Users\\Tima\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\numpy\\core\\include\\numpy\\ufuncobject.h"
+            "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\numpy\\core\\include\\numpy\\arrayobject.h",
+            "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\numpy\\core\\include\\numpy\\ufuncobject.h"
         ],
         "include_dirs": [
-            "C:\\Users\\Tima\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\numpy\\core\\include"
+            "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python36\\lib\\site-packages\\numpy\\core\\include"
         ],
         "name": "darkflow.cython_utils.nms",
         "sources": [

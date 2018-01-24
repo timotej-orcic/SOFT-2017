@@ -1,3 +1,9 @@
+import os
+import sys,inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0,parentdir) 
+
 from darkflow.net.build import TFNet
 from darkflow.cli import cliHandler
 import json

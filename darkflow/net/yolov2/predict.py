@@ -9,6 +9,9 @@ import json
 from ...utils.box import BoundBox
 from ...cython_utils.cy_yolo2_findboxes import box_constructor
 
+
+from ...net.yolo import detectTime as dt
+
 def expit(x):
 	return 1. / (1. + np.exp(-x))
 
@@ -33,7 +36,7 @@ def postprocess(self, net_out, im, save = True):
 	# meta
 	meta = self.meta
 	threshold = meta['thresh']
-	colors = meta['colors']
+	colors = [255,0,0]
 	labels = meta['labels']
 	if type(im) is not np.ndarray:
 		imgcv = cv2.imread(im)
@@ -42,10 +45,12 @@ def postprocess(self, net_out, im, save = True):
 	
 	resultsForJSON = []
 	for b in boxes:
-		boxResults = self.process_box(b, h, w, threshold)
+		boxResults = self.process_box(b, h, w, threshold, im)
 		if boxResults is None:
-			continue
+			continue		
 		left, right, top, bot, mess, max_indx, confidence = boxResults
+		crop_img=imgcv[top:bot, left:right]		
+		mess+=" - "+str(dt.getTime((crop_img)))
 		thick = int((h + w) // 300)
 		if self.FLAGS.json:
 			resultsForJSON.append({"label": mess, "confidence": float('%.2f' % confidence), "topleft": {"x": left, "y": top}, "bottomright": {"x": right, "y": bot}})

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>clock361.jpg</filename>
+	<path>C:\Users\Goran\Desktop\fax\Soft Projekat\SOFT-2017\test\images\clock361.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>946</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clock</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>276</xmin>
+			<ymin>196</ymin>
+			<xmax>661</xmax>
+			<ymax>525</ymax>
+		</bndbox>
+	</object>
+</annotation>

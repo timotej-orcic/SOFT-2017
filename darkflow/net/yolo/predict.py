@@ -20,10 +20,11 @@ def resize_input(self, im):
 	imsz = imsz[:,:,::-1]
 	return imsz
 
-def process_box(self, b, h, w, threshold):
+def process_box(self, b, h, w, threshold, img):
 	max_indx = np.argmax(b.probs)
 	max_prob = b.probs[max_indx]
-	label = self.meta['labels'][max_indx]
+	
+	label = self.meta['labels'][max_indx]	
 	if max_prob > threshold:
 		left  = int ((b.x - b.w/2.) * w)
 		right = int ((b.x + b.w/2.) * w)
@@ -32,7 +33,7 @@ def process_box(self, b, h, w, threshold):
 		if left  < 0    :  left = 0
 		if right > w - 1: right = w - 1
 		if top   < 0    :   top = 0
-		if bot   > h - 1:   bot = h - 1
+		if bot   > h - 1:   bot = h - 1	
 		mess = '{}'.format(label)
 		return (left, right, top, bot, mess, max_indx, max_prob)
 	return None
@@ -42,8 +43,7 @@ def findboxes(self, net_out):
 	threshold = FLAGS.threshold
 	
 	boxes = []
-	boxes = yolo_box_constructor(meta, net_out, threshold)
-	
+	boxes = yolo_box_constructor(meta, net_out, threshold)			
 	return boxes
 
 def preprocess(self, im, allobj = None):
@@ -83,6 +83,7 @@ def postprocess(self, net_out, im, save = True):
 	colors, labels = meta['colors'], meta['labels']
 
 	boxes = self.findboxes(net_out)
+	
 
 	if type(im) is not np.ndarray:
 		imgcv = cv2.imread(im)
@@ -91,7 +92,7 @@ def postprocess(self, net_out, im, save = True):
 	h, w, _ = imgcv.shape
 	resultsForJSON = []
 	for b in boxes:
-		boxResults = self.process_box(b, h, w, threshold)
+		boxResults = self.process_box(b, h, w, threshold, im)
 		if boxResults is None:
 			continue
 		left, right, top, bot, mess, max_indx, confidence = boxResults

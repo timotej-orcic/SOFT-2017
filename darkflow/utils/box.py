@@ -6,6 +6,7 @@ class BoundBox:
         self.w, self.h = float(), float()
         self.c = float()
         self.class_num = classes
+        self.time = ""
         self.probs = np.zeros((classes,))
 
 def overlap(x1,w1,x2,w2):

@@ -8,7 +8,7 @@ from .framework import create_framework
 from ..dark.darknet import Darknet
 import json
 import os
-
+sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 class TFNet(object):
 
 	_TRAINER = dict({

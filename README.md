@@ -2,7 +2,7 @@
 
 Zadatak projekta: Real-time prepoznavanje analognih satova i učitavanje vremena sa njih
 
-[(preview.jpg)]
+![preview](preview.jpg)
 
 ## Podešavanje okruženja
 

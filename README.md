@@ -59,6 +59,4 @@ U istom Conda terminalu možemo uneti sledeće komande za date funkcionalnosti:
 
 Checkpointi za testiranje save opcije, kao i test i output video snimci nalaze se
 u datom GoogleDrive folderu (zbog maksimalnog ograničenja veličine datoteke Git-a):
-    ```
-    [SOFT2017-GoogleDrive](https://drive.google.com/open?id=11Ss4yumVRkdsFjpX8G_yxRoIYwqhuczS)
-    ```
+[SOFT2017-GoogleDrive](https://drive.google.com/open?id=11Ss4yumVRkdsFjpX8G_yxRoIYwqhuczS)

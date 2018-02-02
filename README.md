@@ -2,7 +2,7 @@
 
 Zadatak projekta: Real-time prepoznavanje analognih satova i učitavanje vremena sa njih
 
-[[img](preview.jpg)]
+[(preview.jpg)]
 
 ## Podešavanje okruženja
 
@@ -53,4 +53,12 @@ U istom Conda terminalu možemo uneti sledeće komande za date funkcionalnosti:
    na GPU umesto na CPU (ukoliko je instalirana cela podrška):
     ```
     --gpuName "/gpu:0" -- gpu 1.0	
+    ```
+
+## Dodatne informacije
+
+Checkpointi za testiranje save opcije, kao i test i output video snimci nalaze se
+u datom GoogleDrive folderu (zbog maksimalnog ograničenja veličine datoteke Git-a):
+    ```
+    https://drive.google.com/open?id=11Ss4yumVRkdsFjpX8G_yxRoIYwqhuczS	
     ```

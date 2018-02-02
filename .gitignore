@@ -3,12 +3,16 @@
 *.pyc
 
 # Weight files
-bin/
+#bin/
 
 # Sample image data
-sample_img/*.jpg
-!sample_img/sample_*.jpg
-sample_img/out/*
+#sample_img/*.jpg
+#!sample_img/sample_*.jpg
+#sample_img/out/*
+
+#Video files
+*.avi
+*.mp4
 
 # Annotated test results
 results/
@@ -19,7 +23,7 @@ tfnet/yolo/parse-history.txt
 tfnet/yolo/*.parsed
 *.txt
 !requirements*.txt
-*.pb
+#*.pb
 /profile
 /test.py
 
@@ -37,7 +41,7 @@ build/
 summary/
 
 #Built graphs
-built_graph/
+#built_graph/
 
 #Training checkpoints
 ckpt/*

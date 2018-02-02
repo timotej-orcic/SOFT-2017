@@ -49,7 +49,23 @@ def postprocess(self, net_out, im, save = True):
 		if boxResults is None:
 			continue		
 		left, right, top, bot, mess, max_indx, confidence = boxResults
-		crop_img=imgcv[top:bot, left:right]		
+		newLeft = left
+		newRight = right
+		newTop = top
+		newBot = bot
+		epsilonWidth = int(right * 0.1)
+		epsilonHeight = int(bot * 0.1)
+
+		if left - epsilonWidth >= 0:
+			newLeft = left - epsilonWidth
+		if right + epsilonWidth <= w:
+			newRight = right + epsilonWidth
+		if top - epsilonHeight >= 0:
+			newTop = top - epsilonHeight
+		if bot + epsilonHeight <= h:
+			newBot = bot + epsilonHeight
+
+		crop_img=imgcv[newTop:newBot, newLeft:newRight]		
 		mess+=" - "+str(dt.getTime((crop_img)))
 		thick = int((h + w) // 300)
 		if self.FLAGS.json:

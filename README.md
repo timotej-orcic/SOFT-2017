@@ -43,13 +43,13 @@ U istom Conda terminalu možemo uneti sledeće komande za date funkcionalnosti:
     --annotation test/training/annotations --dataset test/training/images
     ```
     
-4. Čuvanje obučenih podataka na disk u .pb datoteku (CH_NUM predstavlja redni broj checkpoint-a):
+4. Čuvanje obučenih podataka na disk, u .pb datoteku (CH_NUM predstavlja redni broj checkpoint-a):
     ```
     python flow --model cfg/tiny-yolo-voc-clock.cfg --load CH_NUM --train --annotation 
     test/training/annotations --dataset test/training/images --savepb
     ```
     
-5. Na svaku od prve 4 komanda možemo dodati datu liniju kako bismo izvršavali funkcionalnost
+5. Na svaku od prve 4 komande možemo dodati datu liniju, kako bismo izvršavali funkcionalnost
    na GPU umesto na CPU (ukoliko je instalirana cela podrška):
     ```
     --gpuName "/gpu:0" -- gpu 1.0	
@@ -60,5 +60,5 @@ U istom Conda terminalu možemo uneti sledeće komande za date funkcionalnosti:
 Checkpointi za testiranje save opcije, kao i test i output video snimci nalaze se
 u datom GoogleDrive folderu (zbog maksimalnog ograničenja veličine datoteke Git-a):
     ```
-    https://drive.google.com/open?id=11Ss4yumVRkdsFjpX8G_yxRoIYwqhuczS	
+    [SOFT2017-GoogleDrive](https://drive.google.com/open?id=11Ss4yumVRkdsFjpX8G_yxRoIYwqhuczS)
     ```
